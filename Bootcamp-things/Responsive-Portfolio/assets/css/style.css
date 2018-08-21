@@ -174,9 +174,20 @@ android, gym, hiking, tv, videogames {
         max-width: 90%;
         margin-right: 400px;
     }
+    #bio-h1{
+        width: 90%;
+    }
     a{
         position: relative;
         left: 40%;
+    }
+    .contact-container{
+        max-width: 70%;
+       margin-left: 45px;
+
+    }
+    textarea{
+        width: 90%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -194,6 +205,11 @@ android, gym, hiking, tv, videogames {
     a{
         position: relative;
         left: 60%;
+    }
+    .contact-container{
+        max-width: 90%;
+        margin: 0 auto;
+
     }
 }
 @media screen and (max-width: 640px) {
@@ -225,5 +241,16 @@ android, gym, hiking, tv, videogames {
         max-width: 640px;
         margin: 0;
         text-align: center;
+    }
+    .contact-container{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 5%;
+        padding-bottom: 15%;
+        position: relative;
+    }
+    .contact-submit{
+        position: relative;
+        top: 15px;
     }
 }
