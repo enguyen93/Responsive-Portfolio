@@ -252,7 +252,14 @@ p{
         /* margin-right: 400px; */
     }
     a{
-        position: relative;
-        left: 60%;
+        top: 90px;
+        width: auto;
+        left: 45%;
     }
+    #your-name{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    
 }
