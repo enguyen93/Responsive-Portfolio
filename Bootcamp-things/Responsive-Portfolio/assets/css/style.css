@@ -206,3 +206,53 @@ p{
     height: 20px;
     width: 100%;
 }
+@media screen and (max-width: 980px) {
+    .container{
+        max-width: 60%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+    }
+    #main-bio{
+        max-width: 90%;
+
+        margin-right: 400px;
+    }
+    a{
+        position: relative;
+        left: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 95%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    #main-bio{
+        max-width: 90%;
+        max-height: 100%;
+        /* margin-right: 400px; */
+    }
+    a{
+        position: relative;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 95%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    #main-bio{
+        max-width: 90%;
+        max-height: 100%;
+        /* margin-right: 400px; */
+    }
+    a{
+        position: relative;
+        left: 60%;
+    }
+}
