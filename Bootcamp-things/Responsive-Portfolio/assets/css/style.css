@@ -81,6 +81,7 @@ body{
     margin-left: 20px;
     margin-right: 25px;
     float: left;
+    margin-bottom: 25px;
 }
 #main-bio{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -95,7 +96,6 @@ body{
     position: relative;
     top: 0;
     border-bottom: 2px solid #cccccc;
-    margin-left: 20px; 
     width: 100%;  
 }
 p{
@@ -189,6 +189,9 @@ android, gym, hiking, tv, videogames {
     textarea{
         width: 90%;
     }
+    #your-name{
+        padding-right: 100px;
+    }
 }
 @media screen and (max-width: 768px) {
     .container{
@@ -209,7 +212,9 @@ android, gym, hiking, tv, videogames {
     .contact-container{
         max-width: 90%;
         margin: 0 auto;
-
+    }
+    #your-name{
+        padding-right: 100px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -241,6 +246,7 @@ android, gym, hiking, tv, videogames {
         max-width: 640px;
         margin: 0;
         text-align: center;
+        padding: 20px 20px 20px 20px;
     }
     .contact-container{
         max-width: 90%;
