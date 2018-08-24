@@ -105,6 +105,7 @@ body{
     top: 0;
     border-bottom: 2px solid #cccccc;
     width: 100%;  
+    margin-left: 3%;
 }
 p{
     color: #777777;
@@ -184,6 +185,7 @@ android, gym, hiking, tv, videogames {
     }
     #bio-h1{
         width: 90%;
+        margin-left: 3%;
     }
     a{
         position: relative;
@@ -254,12 +256,8 @@ android, gym, hiking, tv, videogames {
         /* max-width: 640px; */
         margin: 0;
         text-align: center;
-<<<<<<< HEAD
         min-width: 640px;
 
-=======
-        padding: 20px 20px 20px 20px;
->>>>>>> 5cf1d74682da0feb5331f280d145e1b21d2841dc
     }
     .contact-container{
         max-width: 90%;
