@@ -1,5 +1,9 @@
 /*HEADER*/
 header{
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    justify-content: flex-end;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
@@ -7,20 +11,22 @@ header{
 }
 /*LINKS*/
 a{
-    float: right;
+    float: left;
     padding: 10px;
     font-size: 130%;
     text-align: center;
     text-decoration: none;
 }
-#links{
+.links{
     background: #ffffff;
-    margin-right: 300px;
+    justify-content: flex-end;
+}
+.links li{
+    display: inline-block;
+    text-decoration: none;
+    float: right;
 }
 /*LISTS FOR THE HEADER*/
-li{
-    display: inline;
-}
 ul{
     list-style-type: none;
     margin: 0;
