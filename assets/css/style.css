@@ -59,6 +59,7 @@ body{
     padding-top: 20px;
     min-height: 100%;
     margin-bottom: 30px;
+    margin-top: 3%;
 }
 .imgContainer{
     margin: 0 auto;  
@@ -67,6 +68,7 @@ body{
     background: #ffffff;
     justify-content: flex-start;
     flex-flow: wrap; 
+    margin-top: 4%;
 }
 .imgHolder {
     position: relative;
